@@ -6,5 +6,4 @@ source ./.venv/bin/activate
 echo [$(date)]: "upgrade pip and install the requirements" 
 pip install --upgrade pip
 pip install -r requirements.txt
-pip install -e .
 echo [$(date)]: "END" 
